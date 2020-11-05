@@ -143,7 +143,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:900px) and (min-width:350px) {
+@media only screen and (max-width:900px) and (min-width:319px) {
     body {
         padding: 1rem 0.75rem 0 0.75rem;
     }
@@ -169,10 +169,15 @@ footer{
 
     }
 
+    .name{
+        font-size:1rem;
+        margin-top:0.5rem;
+    }
+
     .card:nth-child(2),
     .card:nth-child(4),
     .card:nth-child(6) {
-        margin-top: 4rem;
+        margin-top: 1.5rem;
     }
 
     .card:nth-child(1),
